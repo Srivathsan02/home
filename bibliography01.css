@@ -1,0 +1,163 @@
+/* assigns each text box its own background, making it look animated while scrolling (applies to all .info and .box rules)*/
+
+
+
+
+/* Defines the size colour of text and font to use for contact button */
+li #cont 
+{
+    font-size: 16px;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+}
+/* Defines the colour and appearance of the Navigation Bar itself*/
+header {
+  display: flex;
+  /* space-between used to push both sides to either side, then to space middle out evenly */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: #322741;
+}
+/* Defines the link's appearnce on Navbar*/
+.links {
+  list-style: none;
+  color: white;
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+/* Makes the links in a "one block format" so it doesn't look like a list*/
+.links li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: white;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 30px;
+}
+
+/* This rule defines the colour of the link's on the Navbar */
+.links li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: white;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 30px;
+}
+
+  /* This rule makes the links turn white when hovering over them */
+  .links li a:hover 
+{
+  color: #E35335;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 30px;
+}
+  /* contact button styling*/
+  #cont 
+{
+  padding: 9px 25px;
+  background-color: rgba(227, 83, 53, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+  font-family: 'Balsamiq Sans', cursive;
+}
+  /* contact button hover styling*/
+  #cont:hover 
+{
+  background-color: rgba(227, 83, 53, 0.8);
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+  #logo {
+  cursor: pointer;
+  }
+
+  /* defines the background image + its attribures */
+
+.info1 
+{
+  background-color: #322741;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.box1 
+{
+  background-color:rgba(0,0,0,0);
+  color: #fff;
+  text-align: left;
+  font-family: 'Balsamiq Sans', cursive;
+  width: 300px;
+  height: 3000px;
+  padding-top: 100px;
+}
+p 
+{
+  padding-top: 10%;
+}
+
+body 
+{
+  margin: 0;
+}
+
+/* assigns each text box its own background, making it look animated while scrolling (applies to all .info and .box rules)*/
+.info2 
+{
+  background-color: #322741;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+  .box2
+{
+  background-color:rgba(0,0,0,0);
+  color: #fff;
+  text-align: left;
+  font-family: 'Balsamiq Sans', cursive;
+  width: 300px;
+  height: 2000px;
+  padding-top: 100px;
+}
+
+
+/* used to help make the iframe a full page long */
+.videowrapper
+{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25%;
+  height: 0px;
+
+}
+
+.videowrapper iframe
+{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  height: 100%;
+  width: 100%;
+
+}
+
+#w3c
+{
+  margin-top: 42%;
+  border-radius: 4px;
+  margin-left: 0.01%;
+}
+
+#css
+{
+  margin-top: 6.2%;
+  border-radius: 4px;
+  margin-left: 0.1%;
+}
